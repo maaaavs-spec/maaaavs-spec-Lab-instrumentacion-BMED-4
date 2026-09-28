@@ -19,7 +19,10 @@
 
 𝙊𝙗𝙟𝙚𝙩𝙞𝙫𝙤𝙨 𝙀𝙨𝙥𝙚𝙘𝙞́𝙛𝙞𝙘𝙤𝙨:
 
-<h1 align="center"><i><b>Marco toerico</b></i></h1>
+<h1 align="center"><i><b>Marco teorico</b></i></h1>
+*1. Incubadora neonatal* Es un dispositivo médico diseñado para proporcionar a un recien nacido un ambiente controlado, manteniendo condiciones ambientales similares a las intrauterias, esto con el fin de para ayudar y favorecer la supervivencia y correcto desarrollo del bebé, especialmente en neonatos prematuros, debido a que presentan una mayor dificultad para regular su temperatura corporal como consecuencia de la inmadurez de sus mecanismos de termoregulación.
+
+*2. Termorregulación neonatal* 
 
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
