@@ -36,8 +36,12 @@ Diseñar una incubadora neonatal a escala que permita regular la temperatura int
 
 *1. Incubadora neonatal* Es un dispositivo médico diseñado para proporcionar a un recien nacido un ambiente controlado, manteniendo condiciones ambientales similares a las intrauterias, esto con el fin de para ayudar y favorecer la supervivencia y correcto desarrollo del bebé, especialmente en neonatos prematuros, debido a que presentan una mayor dificultad para regular su temperatura corporal como consecuencia de la inmadurez de sus mecanismos de termoregulación.
 
-*2. Termorregulación neonatal* 
+*2. Termorregulación neonatal* La termorregulación es el proceso fisiológico mediante el organismo mantiene su temperatura corporal dentro de los limites adecuados, en el caso de los recién nacidos especialmente en los prematuros, este proceso puede ser menos eficiente debido a la inmadurez de sus mecanismos de regulación térmica y por las características de su piel.
 
+Por esto mismo, las incubadoras proporcionan un ambiente que permite reducir las pérdidas de calor y mantener las condiciones térmicas controladas, normalmente establecida entre 36° y 27,5°, medidas que usamos para nuestra práctica.
+
+*3. Transferencia de calor*
+ 
 
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
