@@ -92,17 +92,19 @@ servo-cuna?
 A pesar de que ambos dispositivos medicos se usan para mantener la temperatura de los neonatos, se diferencian principalmente en su estructura y en la forma de proporcionar calor: la incubadora cuenta con una cubierta que crea un ambiente más cerrado y controlado que simula el útero materno, mientras que la servo-cuna o cuna de calor radiante suele ser una cama abierta que utiliza una fuente de calor radiante situada sobre el recién nacido. Por esta razón, la incubadora favorece el control del microambiente interior, mientras que la servo-cuna facilita el acceso directo al paciente para procedimientos médicos y cuidados asistenciales.
 
 <img width="399" height="501" alt="image" src="https://github.com/user-attachments/assets/ed06ebe1-5c90-4c7c-9e08-397ec7b9e504" />
-imagen tomada de https://enfermeriabuenosaires.com
+
+Imagen tomada de https://enfermeriabuenosaires.com
 
 𝘾𝙤𝙣𝙘𝙡𝙪𝙨𝙞𝙤𝙣
 
 𝘽𝙞𝙗𝙡𝙞𝙤𝙜𝙧𝙖𝙛𝙞𝙖
+
 +Restrepo Pérez, L., Durango Londoño, N., Gómez Suárez, N., González Ramírez, F., & Rivera Bonilla, N. (2007). Prototipo de incubadora neonatal. Revista Ingeniería Biomédica, 1(1), 55-59.
 + Latif, A., Widodo, H. A., Atmoko, R. A., Phong, T. N., & Helmy, E. T. (2021). Temperature and humidity controlling system for baby incubator. Journal of Robotics and Control (JRC), 2(3), 190-193.
 + Mittal, H., Mathew, L., & Gupta, A. (2015). Design and development of an infant incubator for controlling multiple parameters. Int. J. Emerg. Trends Electr. Electron, 11(5), 2320-9569.
 + Subramanian, M., Sheela, T., Srividya, K., & Arulselvam, D. (2019). Security and health monitoring system of the baby in incubator. Int. J. Eng. Adv. Technol, 8(6), 3582-3585.
 + Client challenge. (s. f.-b). https://es.scribd.com/document/670874835/Clase-7-8-Incubadora-y-Servocunas
-+ 
-+ 
-+
-+
++ Castro, L. B., Parra, M. C., & Díaz, G. M. INCUBADORA NEONATAL. Biomedicina, 1, 1.
++ García Olivares, D. (2022). NeoEq: Desarrollo de una incubadora infantil de bajo costo para la estabilización neonatal en zonas remotas de Colombia.
++ Restrepo Pérez, L., Durango Londoño, N., Gómez Suárez, N., González Ramírez, F., & Rivera Bonilla, N. (2007). Prototipo de incubadora neonatal. Revista Ingeniería Biomédica, 1(1), 55-59.
++ Mojica, A., Vásquez, K., & Cerón, M. (2026). Diseño e Implementación de una Incubadora Neonatal Utilizando Tecnología ESP32 para Entornos de Recursos Limitados. Conducta científica, 9(1), 95-105.
