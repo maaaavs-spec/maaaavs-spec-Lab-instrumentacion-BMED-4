@@ -34,13 +34,23 @@ Diseñar una incubadora neonatal a escala que permita regular la temperatura int
 
 <h1 align="center"><i><b>Marco teorico</b></i></h1>
 
-*1. Incubadora neonatal* Es un dispositivo médico diseñado para proporcionar a un recien nacido un ambiente controlado, manteniendo condiciones ambientales similares a las intrauterias, esto con el fin de para ayudar y favorecer la supervivencia y correcto desarrollo del bebé, especialmente en neonatos prematuros, debido a que presentan una mayor dificultad para regular su temperatura corporal como consecuencia de la inmadurez de sus mecanismos de termoregulación.
+*1. Incubadora neonatal* Es un dispositivo médico diseñado para proporcionar a un recién nacido un ambiente controlado, manteniendo condiciones ambientales similares a las intrauterinas, esto con el fin de para ayudar y favorecer la supervivencia y correcto desarrollo del bebé, especialmente en neonatos prematuros, debido a que presentan una mayor dificultad para regular su temperatura corporal como consecuencia de la inmadurez de sus mecanismos de termorregulación.
 
 *2. Termorregulación neonatal* La termorregulación es el proceso fisiológico mediante el organismo mantiene su temperatura corporal dentro de los limites adecuados, en el caso de los recién nacidos especialmente en los prematuros, este proceso puede ser menos eficiente debido a la inmadurez de sus mecanismos de regulación térmica y por las características de su piel.
 
-Por esto mismo, las incubadoras proporcionan un ambiente que permite reducir las pérdidas de calor y mantener las condiciones térmicas controladas, normalmente establecida entre 36° y 27,5°, medidas que usamos para nuestra práctica.
+Por esto mismo, las incubadoras proporcionan un ambiente que permite reducir las pérdidas de calor y mantener las condiciones térmicas controladas, normalmente establecida entre 36° y 37,5°, medidas que usamos para nuestra práctica.
 
-*3. Transferencia de calor*
+*3. Transferencia de calor por convección* Este tipo de transferencia ocurre cuando la energía térmica se transfiere mediante el movimiento de un fluido, comúnmente el aire. En una incubadora se evidencia este mecanismo permitiendo distribuir de mejor manera el calor generado por el sistema dentro de la cámara. El prototipo utiliza un elemento resistivo el cual transforma la energía eléctrica en energía térmica y un ventilador que favorece el movimiento del aire.
+
+*4. Termistor* Es un componente el cual tiene una resistencia eléctrica cuyo valor varía en función de la temperatura. Esta propiedad posibilita su uso para evaluar las condiciones térmicas dentro de la incubadora.
+Los termistores se dividen en dos categorías principales: NTC y PTC. En los NTC, la resistencia baja al elevarse la temperatura; en cambio, en los PTC lo hace cuando se incrementa. A través de un circuito eléctrico, la fluctuación de resistencia tiene el potencial de convertirse en una señal eléctrica, lo cual posibilita detectar alteraciones en la temperatura. La señal adquirida se utiliza como una referencia para decidir si la temperatura al interior está dentro del rango establecido y si es necesario ajustar el calentamiento. 
+
+*5. Regulación de la temperatura* Consiste en comparar el valor medio en el interior de la incubadora con un valor de referencia para determinar cuando debe aumentarse o reducirse el calentamiento. E l error de temperatura se puede expresar mediante la ecuación:
+$e(t)=T_{\mathrm{ref}}-T_{\mathrm{medida}}(t)$
+Donde $(T_{\mathrm{ref}})$ es la temperatura de referencia y $(T_{\mathrm{medida}}(t))$ corresponde a la temperatura registrada por el sensor.
+Cuando la temperatura es inferior al nivel requerido, el circuito puede activar el elemento calefactor. Cuando alcanza el intervalo establecido, el circuito debe ajustar el aporte de calor para evitar un calentamiento excesivo. La estrategia específica depende del diseño electrónico utilizado.
+En el prototipo, tres LED permiten identificar visualmente el estado de la temperatura: el verde indica que se encuentra dentro del intervalo especificado, mientras que los dos rojos indican una temperatura inferior o superior al rango de funcionamiento.
+ 
  
 
 
