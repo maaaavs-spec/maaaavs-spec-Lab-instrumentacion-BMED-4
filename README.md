@@ -15,7 +15,6 @@ Palabras claves:Incubadora neonatal, instrumentación biomédica, control de tem
 <h2 align="center">𝙞𝙣𝙩𝙧𝙤𝙙𝙪𝙘𝙘𝙞ó𝙣</h2>
 La incubadora neonatal es un aparato de la medicina cuyo propósito esencial es crear un microambiente controlado que simula las circunstancias del útero materno, garantizando así que el recién nacido sobreviva y se desarrolle de manera óptima, sobre todo aquellos que nacen prematuramente. La norma internacional IEC 60601-2-19 regula su funcionamiento, la cual define los requerimientos de seguridad básica y rendimiento esencial para este tipo de dispositivos.
 
-<img width="526" height="526" alt="image" src="https://github.com/user-attachments/assets/01cb03c3-7e7d-434d-bdd4-e799fa3538da" />
 
 En este contexto, la práctica consiste en diseñar, simular y construir un modelo de incubadora neonatal a escala que integre el control de temperatura y la medición de peso. A través de su desarrollo, se busca evaluar el funcionamiento de los circuitos implementados e identificar las limitaciones que deben considerarse para diferenciar un prototipo académico de un dispositivo médico destinado al uso clínico.
 
@@ -55,20 +54,55 @@ En el prototipo, tres LED permiten identificar visualmente el estado de la tempe
 
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 A 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
-𝙎𝙚𝙣𝙨𝙤𝙧 𝙚𝙨𝙘𝙤𝙜𝙞𝙙𝙤 
+*Partes de la incubadora*
+<img width="526" height="526" alt="image" src="https://github.com/user-attachments/assets/01cb03c3-7e7d-434d-bdd4-e799fa3538da" />
 
-𝘾𝙤𝙣𝙨𝙚𝙣𝙩𝙞𝙢𝙞𝙚𝙣𝙩𝙤 𝙞𝙣𝙛𝙤𝙧𝙢𝙖𝙙𝙤 𝙙𝙚𝙡 𝙥𝙖𝙧𝙩𝙞𝙘𝙞𝙥𝙖𝙣𝙩𝙚 
-
+ *Circuito Lazo cerrado*
+ *Circuito peso*
+ 
+ 
+<h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 B 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 𝙈𝙤𝙣𝙩𝙖𝙟𝙚 𝙚𝙭𝙥𝙚𝙧𝙞𝙢𝙚𝙣𝙩𝙖𝙡
 
 𝙀𝙭𝙥𝙡𝙞𝙘𝙖𝙘𝙞𝙤́𝙣 𝙙𝙚𝙡 𝙘𝙤𝙙𝙞𝙜𝙤
 ```
 ```
-<h2 align="center">𝘼𝙣𝙖𝙡𝙞𝙨𝙞𝙨 𝙙𝙚 𝙧𝙚𝙨𝙪𝙡𝙩𝙖𝙙𝙤𝙨</h2>
+*Costo total deel sistema*
+
+*Costo por partes*
+| Material/Componente  | Costo estimado (COP) |
+| -------------------- | -------------------- |
+| Caja plastica        | 50,000               |
+
+*Comparación con incubadoras comerciales*
+
+<h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
+*Procedimiento*
+*Discución*
+Pregunta 1: ¿Qué otras variables (y por qué) además de las aquí 
+mencionadas son críticas en el monitoreo neonatal? 
+Además de la temperatura y el peso, existen otras variables importantes para el monitoreo neonatal, entre estas se encuentra la frecuencia cardíaca, la frecuencia respiratoria, la saturación de oxígeno en la sangre y la humedad relativa del ambiente. Donde la frecuencia cardíaca permite evaluar el funcionamiento del sistema cardiovascular, mientras que la frecuencia respiratoria ayuda a identificar alteraciones en la respiración, la saturación de oxígeno permite conocer si el organismo recibe una cantidad adecuada de oxígeno y por otra parte, la humedad relativa influye en las pérdidas de agua y calor a través de la piel, especialmente en los recién nacidos prematuros. El monitoreo de estas variables permite identificar cambios en el estado fisiológico del neonato y facilita la intervención oportuna del personal de salud cuando sea necesario.
+
+• Pregunta 2: ¿Qué haría falta para convertir el sistema desarrollado en una 
+incubadora neonatal real? 
+sería necesario incorporar sistemas de medición y regulación de mayor precisión, mecanismos de seguridad y alarmas que detecten más condiciones anormales como los problemas en la alimentación electrica, además garantizar una distribución uniforme del aire y controlar variables ambientales adicionales como la humedad, y verificar el cumplimiento de las normas técnicas y los requisitos regulatorios aplicables a los dispositivos médicos especificamente en la normativa Colombiana para equipos biomédicos expedida por el INVIMA  (Instituto Nacional de Vigilancia de Medicamentos y Alimentos )
+
+• Pregunta 3: ¿Qué semejanzas hay entre una incubadora neonatal y una 
+servo-cuna?
+A pesar de que ambos dispositivos medicos se usan para mantener la temperatura de los neonatos, se diferencian principalmente en su estructura y en la forma de proporcionar calor: la incubadora cuenta con una cubierta que crea un ambiente más cerrado y controlado que simula el útero materno, mientras que la servo-cuna o cuna de calor radiante suele ser una cama abierta que utiliza una fuente de calor radiante situada sobre el recién nacido. Por esta razón, la incubadora favorece el control del microambiente interior, mientras que la servo-cuna facilita el acceso directo al paciente para procedimientos médicos y cuidados asistenciales.
+
+<img width="399" height="501" alt="image" src="https://github.com/user-attachments/assets/ed06ebe1-5c90-4c7c-9e08-397ec7b9e504" />
+imagen tomada de https://enfermeriabuenosaires.com
 
 𝘾𝙤𝙣𝙘𝙡𝙪𝙨𝙞𝙤𝙣
 
 𝘽𝙞𝙗𝙡𝙞𝙤𝙜𝙧𝙖𝙛𝙞𝙖
-+
++Restrepo Pérez, L., Durango Londoño, N., Gómez Suárez, N., González Ramírez, F., & Rivera Bonilla, N. (2007). Prototipo de incubadora neonatal. Revista Ingeniería Biomédica, 1(1), 55-59.
++ Latif, A., Widodo, H. A., Atmoko, R. A., Phong, T. N., & Helmy, E. T. (2021). Temperature and humidity controlling system for baby incubator. Journal of Robotics and Control (JRC), 2(3), 190-193.
++ Mittal, H., Mathew, L., & Gupta, A. (2015). Design and development of an infant incubator for controlling multiple parameters. Int. J. Emerg. Trends Electr. Electron, 11(5), 2320-9569.
++ Subramanian, M., Sheela, T., Srividya, K., & Arulselvam, D. (2019). Security and health monitoring system of the baby in incubator. Int. J. Eng. Adv. Technol, 8(6), 3582-3585.
++ Client challenge. (s. f.-b). https://es.scribd.com/document/670874835/Clase-7-8-Incubadora-y-Servocunas
++ 
++ 
 +
 +
