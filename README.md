@@ -1,3 +1,4 @@
+<img width="720" height="1280" alt="WhatsApp Image 2026-10-22 at 10 18 43 PM" src="https://github.com/user-attachments/assets/b96c2d70-de33-431d-9adc-d78a07a8cbcc" />
 # 
 ## Laboratorio_4_
 # **Integrantes**
@@ -63,6 +64,9 @@ En el prototipo, tres LED permiten identificar visualmente el estado de la tempe
  
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 B 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 𝙈𝙤𝙣𝙩𝙖𝙟𝙚 𝙚𝙭𝙥𝙚𝙧𝙞𝙢𝙚𝙣𝙩𝙖𝙡
+
+<img width="720" height="1280" alt="WhatsApp Image 2026-10-22 at 10 18 43 PM" src="https://github.com/user-attachments/assets/4d715a2e-c951-4c74-8ec3-5810dec4c700" />
+
 
 𝙀𝙭𝙥𝙡𝙞𝙘𝙖𝙘𝙞𝙤́𝙣 𝙙𝙚𝙡 𝙘𝙤𝙙𝙞𝙜𝙤
 ```
