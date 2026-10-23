@@ -73,7 +73,13 @@ En el prototipo, tres LED permiten identificar visualmente el estado de la tempe
 | Material/Componente  | Costo estimado (COP) |
 | -------------------- | -------------------- |
 | Caja plastica        | 50,000               |
-
+| Ventilator 12v       |  9.000               |
+| Rele                 | 30.000.              |
+| OLED                 | 25.000               |
+| Bombillo.            | 2.000                |
+| Termisor             |  4,500               |
+|Rosaueta para bombillo| 4,000                |
+|FSR                   | 28,000               |
 *Comparación con incubadoras comerciales*
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
