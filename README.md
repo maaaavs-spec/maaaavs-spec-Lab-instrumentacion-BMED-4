@@ -444,17 +444,7 @@ Ambos equipos requieren una supervisión adecuada de la temperatura y mecanismos
 
 # 10. Conclusiones
 
-Se construyó un prototipo académico de incubadora neonatal a escala que integra una estructura transparente, un termistor, un bombillo de 120 W, un ventilador, circuitos conectados a un Arduino y tres indicadores LED para señalar el estado de temperatura.
-
-Durante las pruebas, la temperatura interior alcanzó aproximadamente 37 °C, valor que se encuentra dentro del intervalo objetivo de 36 °C a 37,5 °C establecido en la guía. Sin embargo, al no contar con registros de temperatura frente al tiempo, no es posible determinar cuantitativamente la estabilidad del sistema ni confirmar cuánto tiempo permaneció dentro del intervalo.
-
-En la prueba de medición de peso, una masa de referencia de 2.000 g produjo una lectura de 1.976 g. La diferencia de 24 g corresponde a un error porcentual del 1.2 %. Este resultado evidencia la necesidad de realizar una calibración con varias masas conocidas y repetir las mediciones para evaluar el comportamiento del sensor.
-
-La práctica permitió aplicar conceptos de instrumentación biomédica, sensado, calentamiento, circulación del aire y control electrónico. También permitió identificar las limitaciones de un prototipo académico frente a un equipo médico comercial.
-
-Para completar la evaluación del proyecto se requiere recuperar o reconstruir los diagramas eléctricos, documentar el funcionamiento del Arduino, obtener mediciones experimentales adicionales y verificar el costo total de los componentes.
-
-Finalmente, el prototipo no está validado para uso clínico y no debe utilizarse con recién nacidos ni pacientes.
+En conclusión, se construyó un prototipo académico de incubadora neonatal a escala que integra una estructura transparente, un termistor, un bombillo de 120 W, un ventilador, circuitos conectados a un Arduino y tres indicadores LED para señalar el estado de la temperatura. Durante las pruebas, el sistema alcanzó aproximadamente 37 °C, valor comprendido dentro del intervalo objetivo de 36 °C a 37,5 °C establecido en la guía; sin embargo, la ausencia de registros de temperatura en función del tiempo impide evaluar cuantitativamente su estabilidad. Asimismo, en la prueba de medición de masa, se obtuvo una lectura de 1976 g frente a una masa de referencia de 2000 g, lo que representa una diferencia de 24 g y un error porcentual del 1,2 %. Estos resultados permitieron aplicar conceptos de instrumentación biomédica, sensado, calentamiento, circulación del aire y control electrónico, además de reconocer la importancia de calibrar los sensores, repetir las mediciones y documentar los diagramas eléctricos y el funcionamiento del Arduino. También se identificó la necesidad de verificar el costo total de los componentes y realizar pruebas adicionales para caracterizar mejor el desempeño del prototipo. Finalmente, debido a que se trata de un modelo académico que no ha sido validado para uso clínico, no debe utilizarse con recién nacidos ni con pacientes.
 
 # 11. Bibliografía
 
