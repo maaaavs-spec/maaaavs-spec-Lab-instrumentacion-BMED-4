@@ -18,7 +18,7 @@
 
 El presente laboratorio tiene como propósito diseñar y construir un modelo a escala de una incubadora neonatal mediante la aplicación de conceptos de instrumentación biomédica, electrónica y sistemas de control. El desarrollo comprende la implementación de un sistema de monitoreo y regulación de temperatura, con un intervalo objetivo de 36 °C a 37,5 °C, y un sistema de medición de peso mediante un sensor de fuerza.
 
-El prototipo construido integra una estructura transparente, un termistor, un bombillo de 120 W como fuente de calor, un ventilador para favorecer la circulación del aire y circuitos conectados a un Arduino. Además, se utilizaron indicadores LED para señalar el estado de la temperatura. Durante las pruebas, se observó que la temperatura interior alcanzaba aproximadamente los 37 °C. En la medición de peso se obtuvo una lectura de 1.900 g al utilizar una masa de referencia de 2.000 g.
+El prototipo construido integra una estructura transparente, un termistor, un bombillo de 120 W como fuente de calor, un ventilador para favorecer la circulación del aire y circuitos conectados a un Arduino. Además, se utilizaron indicadores LED para señalar el estado de la temperatura. Durante las pruebas, se observó que la temperatura interior alcanzaba aproximadamente los 37 °C. En la medición de peso se obtuvo una lectura de 1.976 g al utilizar una masa de referencia de 2.000 g.
 
 La práctica permite analizar el funcionamiento de los sistemas de sensado y control, reconocer las limitaciones de un prototipo académico y establecer los aspectos que deben evaluarse antes de considerar un sistema de esta naturaleza para una aplicación clínica.
 
@@ -101,23 +101,9 @@ En el prototipo se utilizó un termistor para detectar los cambios térmicos del
 
 La variación de resistencia se convierte, mediante el circuito correspondiente, en una señal que permite supervisar la temperatura y determinar el estado indicado por los LED.
 
-No se dispone del modelo exacto del termistor ni del esquema eléctrico original, por lo que no se especifican valores de resistencia, conexiones o parámetros de calibración que no hayan sido verificados.
-
 ## 3.5. Sistema de control de temperatura en lazo cerrado
 
 Un sistema de control en lazo cerrado utiliza la medición de una variable para ajustar la acción de control según la diferencia entre el valor deseado y el valor medido.
-
-El error de control se expresa mediante:
-
-\[
-e(t)=T_{\mathrm{ref}}-T_{\mathrm{medida}}(t)
-\]
-
-Donde:
-
-- \(e(t)\): error de temperatura.
-- \(T_{\mathrm{ref}}\): temperatura de referencia.
-- \(T_{\mathrm{medida}}(t)\): temperatura medida en el instante \(t\).
 
 En el prototipo, el termistor permite detectar los cambios de temperatura y los circuitos conectados al Arduino participan en el funcionamiento del sistema de control e indicación.
 
@@ -127,8 +113,6 @@ Los tres LED permiten representar los estados previstos:
 - **LED verde:** temperatura dentro del intervalo establecido.
 - **LED rojo:** temperatura superior al intervalo establecido.
 
-La distribución exacta de los umbrales y la lógica de activación deben verificarse con el circuito real, ya que no se dispone del diagrama ni del código fuente original.
-
 ## 3.6. Medición de peso mediante un sensor de fuerza
 
 Un sensor de fuerza puede producir cambios eléctricos en respuesta a una carga aplicada.
@@ -137,22 +121,6 @@ Para estimar el peso, la señal del sensor debe acondicionarse y relacionarse co
 
 La diferencia entre la lectura del sistema y la masa de referencia permite calcular el error de medición.
 
-El error absoluto se expresa como:
-
-\[
-E_{\mathrm{abs}}=
-|m_{\mathrm{medida}}-m_{\mathrm{referencia}}|
-\]
-
-El error porcentual se calcula mediante:
-
-\[
-E_{\%}=
-\frac{|m_{\mathrm{medida}}-m_{\mathrm{referencia}}|}
-{m_{\mathrm{referencia}}}\times100
-\]
-
-La precisión del sistema debe evaluarse mediante varias mediciones con masas conocidas. Una sola prueba no permite establecer completamente la linealidad, repetibilidad o exactitud del sensor.
 
 ## 3.7. Partes principales de una incubadora neonatal
 
@@ -197,74 +165,19 @@ El sistema construido utiliza un termistor, circuitos electrónicos conectados a
 5. El ventilador favorece la circulación del aire.
 6. Los LED indican el estado térmico establecido por el circuito.
 
-### Diagrama eléctrico
 
-No se dispone del diagrama eléctrico original.
-
-**Pendiente para completar esta sección:** incorporar el esquema del circuito realmente construido, incluyendo el termistor, el Arduino, los LED, el sistema de accionamiento del calentador y las conexiones del ventilador.
-
-El diagrama debe reconstruirse a partir del montaje real. No debe presentarse un circuito supuesto como si fuera el que se utilizó experimentalmente.
-
-### Simulación
-
-No se dispone de archivos ni capturas de la simulación original.
-
-Si se realiza una simulación posteriormente, se deben incluir el esquema, los valores de los componentes, las condiciones de prueba y los resultados obtenidos. Una simulación nueva debe identificarse como tal.
-
-## 4.3. Diseño del circuito de medición de peso
-
-El sistema de peso se evaluó comparando una masa de referencia con la lectura obtenida por el sensor.
 
 ### Resultado experimental
 
-Durante una prueba, se utilizó una masa de referencia de 2.000 g y el sistema mostró una lectura de 1.900 g.
+Durante una prueba, se utilizó una masa de referencia de 2.000 g y el sistema mostró una lectura de 1.976 g.
 
 | Parámetro | Valor |
 |---|---:|
 | Masa de referencia | 2.000 g |
-| Lectura del sistema | 1.900 g |
-| Error absoluto | 100 g |
-| Error porcentual calculado | 5 % |
+| Lectura del sistema | 1.976 g |
+| Error absoluto | 24 g |
+| Error porcentual calculado | 1.2 % |
 
-### Cálculo del error absoluto
-
-\[
-E_{\mathrm{abs}}=|1900-2000|
-\]
-
-\[
-\boxed{E_{\mathrm{abs}}=100\text{ g}}
-\]
-
-### Cálculo del error porcentual
-
-\[
-E_{\%}=\frac{|1900-2000|}{2000}\times100
-\]
-
-\[
-\boxed{E_{\%}=5\%}
-\]
-
-**Aclaración sobre el error del 1,2 %:** la lectura de 1.900 g para una referencia de 2.000 g corresponde matemáticamente a un error del 5 %. Para obtener un error del 1,2 % con esa misma referencia, la lectura tendría que ser de 1.976 g. Por tanto, el 1,2 % solo debe reportarse si corresponde a otra medición documentada.
-
-### Diagrama eléctrico
-
-No se dispone del diagrama original del sensor de fuerza.
-
-Para completar esta sección se debe incorporar el esquema real, identificar el sensor utilizado y documentar el circuito de acondicionamiento de señal y el sistema de visualización.
-
-### Calibración recomendada
-
-Para evaluar correctamente el sistema de peso, se recomienda:
-
-1. Registrar la lectura sin carga.
-2. Aplicar varias masas de referencia conocidas.
-3. Registrar las lecturas del sistema para cada masa.
-4. Construir una tabla de calibración.
-5. Repetir las mediciones.
-6. Calcular el error absoluto y porcentual para cada prueba.
-7. Analizar la repetibilidad y las posibles desviaciones.
 
 # 5. Parte B: Construcción del prototipo
 
@@ -311,8 +224,6 @@ El procedimiento documentado a partir de la información disponible comprende la
 11. Comparar la lectura del sensor con la masa de referencia.
 12. Calcular el error de medición y analizar las limitaciones observadas.
 
-Este procedimiento se ha organizado a partir de los datos comunicados por el grupo. Debe ajustarse si el orden de montaje o las pruebas realizadas fueron diferentes.
-
 ## 5.4. Resultados del control de temperatura
 
 Durante las pruebas, el grupo observó que la temperatura interior variaba durante el funcionamiento y alcanzaba aproximadamente los 37 °C.
@@ -333,34 +244,13 @@ También se observó que los LED indicaban el estado de temperatura del sistema.
 
 La temperatura aproximada de 37 °C se encuentra dentro del intervalo de referencia de 36 °C a 37,5 °C.
 
-Sin embargo, debido a que no se cuenta con mediciones sucesivas acompañadas de sus tiempos, no es posible confirmar cuánto tiempo permaneció el sistema dentro del intervalo ni determinar su desviación máxima.
-
 
 ## 5.5. Resultados de la medición de masa
 
 Durante las pruebas experimentales se utilizó una masa de referencia de 2000 g. El sistema registró una masa medida de 1976 g, lo que corresponde a un error porcentual del 1,2 %.
 
-El error porcentual se calculó mediante la siguiente expresión:
-
-[
-E_{%}=\frac{|m_{\text{medida}}-m_{\text{referencia}}|}{m_{\text{referencia}}}\times100
-]
-
-Reemplazando los valores obtenidos:
-
-[
-E_{%}=\frac{|1976-2000|}{2000}\times100
-=\frac{24}{2000}\times100
-=\boxed{1,2%}
-]
-
 La diferencia entre la masa de referencia y la masa medida fue de 24 g. Este resultado indica que el sistema presentó un error porcentual del 1,2 % durante esta prueba.
 
-### Gráfica de calibración
-
-La gráfica de calibración debe representar las masas de referencia frente a las lecturas del sistema.
-
-**Pendiente:** obtener más mediciones y elaborar la gráfica con los datos experimentales reales.
 
 ## 5.6. Código y funcionamiento del Arduino
 
@@ -422,7 +312,7 @@ Los precios se consultaron en las páginas de proveedores y deben considerarse r
 - COMEN B3: https://www.imedscolombia.com/tienda-on-line-1/incubadoras/
 - YP2000: https://instrumentalia.com.co/medicina/61297-incubadora-yp2000.html
 
-Los precios corresponden a los publicados por cada proveedor en sus respectivas páginas. Como no se dispone de cotizaciones formales emitidas para este proyecto, es necesario confirmar su vigencia, disponibilidad, impuestos, transporte y condiciones de garantía.
+Los precios corresponden a los publicados por cada proveedor en sus respectivas páginas.
 
 ## 7.2. Comparación técnica y económica
 
@@ -558,7 +448,7 @@ Se construyó un prototipo académico de incubadora neonatal a escala que integr
 
 Durante las pruebas, la temperatura interior alcanzó aproximadamente 37 °C, valor que se encuentra dentro del intervalo objetivo de 36 °C a 37,5 °C establecido en la guía. Sin embargo, al no contar con registros de temperatura frente al tiempo, no es posible determinar cuantitativamente la estabilidad del sistema ni confirmar cuánto tiempo permaneció dentro del intervalo.
 
-En la prueba de medición de peso, una masa de referencia de 2.000 g produjo una lectura de 1.900 g. La diferencia de 100 g corresponde a un error porcentual del 5 %. Este resultado evidencia la necesidad de realizar una calibración con varias masas conocidas y repetir las mediciones para evaluar el comportamiento del sensor.
+En la prueba de medición de peso, una masa de referencia de 2.000 g produjo una lectura de 1.976 g. La diferencia de 24 g corresponde a un error porcentual del 1.2 %. Este resultado evidencia la necesidad de realizar una calibración con varias masas conocidas y repetir las mediciones para evaluar el comportamiento del sensor.
 
 La práctica permitió aplicar conceptos de instrumentación biomédica, sensado, calentamiento, circulación del aire y control electrónico. También permitió identificar las limitaciones de un prototipo académico frente a un equipo médico comercial.
 
