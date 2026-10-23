@@ -1,4 +1,3 @@
-<img width="720" height="1280" alt="WhatsApp Image 2026-10-22 at 10 18 43 PM" src="https://github.com/user-attachments/assets/b96c2d70-de33-431d-9adc-d78a07a8cbcc" />
 # 
 ## Laboratorio_4_
 # **Integrantes**
