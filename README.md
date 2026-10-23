@@ -83,8 +83,11 @@ En el prototipo, tres LED permiten identificar visualmente el estado de la tempe
 *Comparación con incubadoras comerciales*
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
-*Procedimiento*
-*Discución*
+
+**Procedimiento**
+
+**Discución**
+
 Pregunta 1: ¿Qué otras variables (y por qué) además de las aquí 
 mencionadas son críticas en el monitoreo neonatal? 
 Además de la temperatura y el peso, existen otras variables importantes para el monitoreo neonatal, entre estas se encuentra la frecuencia cardíaca, la frecuencia respiratoria, la saturación de oxígeno en la sangre y la humedad relativa del ambiente. Donde la frecuencia cardíaca permite evaluar el funcionamiento del sistema cardiovascular, mientras que la frecuencia respiratoria ayuda a identificar alteraciones en la respiración, la saturación de oxígeno permite conocer si el organismo recibe una cantidad adecuada de oxígeno y por otra parte, la humedad relativa influye en las pérdidas de agua y calor a través de la piel, especialmente en los recién nacidos prematuros. El monitoreo de estas variables permite identificar cambios en el estado fisiológico del neonato y facilita la intervención oportuna del personal de salud cuando sea necesario.
