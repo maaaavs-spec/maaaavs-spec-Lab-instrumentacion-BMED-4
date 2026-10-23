@@ -252,16 +252,6 @@ Durante las pruebas experimentales se utilizó una masa de referencia de 2000 g.
 La diferencia entre la masa de referencia y la masa medida fue de 24 g. Este resultado indica que el sistema presentó un error porcentual del 1,2 % durante esta prueba.
 
 
-## 5.6. Código y funcionamiento del Arduino
-
-El prototipo utilizó circuitos conectados a un Arduino. Sin embargo, no se dispone del código fuente original.
-
-Por esta razón, no es posible documentar de manera verificable las librerías, los pines, la lógica de programación ni las instrucciones utilizadas durante la prueba.
-
-Para completar esta sección se recomienda recuperar el programa original o reconstruirlo después de identificar las conexiones reales.
-
-Si se desarrolla un programa nuevo, debe identificarse como una nueva implementación y no como el código utilizado originalmente durante la práctica.
-
 # 6. Costos del sistema desarrollado
 
 ## 6.1. Costo de los componentes
